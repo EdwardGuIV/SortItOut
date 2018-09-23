@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{C8B780A4-3411-4C45-A9ED-A3AA38CB6290}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SortItOut/Program.cs">
+    <Files>
+      <File FileName="SortItOut/Program.cs" Line="12" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.SortItOut PreferredExecutionTarget="MonoDevelop.Default" FirstBuild="True" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
