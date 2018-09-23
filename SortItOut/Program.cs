@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.IO;
 
 namespace SortItOut
@@ -11,6 +8,7 @@ namespace SortItOut
     {
         public static void Main(string[] args)
         {
+            //
             int indexNum; string indexNumS;
             double dubNum; string dubNumS;
             Guid guid; string guidS;
@@ -36,20 +34,31 @@ namespace SortItOut
                 //write string to array location x
                 genNumL = new List<string> { indexNumS, guidS, dubNumS };
 
+                //format the strings for printing
                 string results = String.Join(", ", genNumL);
                 Console.WriteLine(results);
 
+                //create file path 
                 string path = @"MyCSVTest.csv";
 
+                //see if the file exists before making a new one
                 if (!File.Exists(path))
                 {
                     File.WriteAllText(path, results);
                 }
+                //if the file exists append the other text
                 else
                 {
                     File.AppendAllText(path, results);
                 }
 
+                //trying to read text as it is or after it is written
+                //string readText = File.ReadAllText(path);
+                //foreach (var item in readText)
+                //{
+                //    Console.WriteLine(item);
+
+                //}
             }
 
 
